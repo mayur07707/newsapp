@@ -28,10 +28,10 @@ const News = (props) =>  {
     props.setProgress(100);
   }
 
-  //eslint-disable-next-line
+  
   useEffect(() => {
     updateNews();
-  }, [])
+  }, [updateNews])
   
   //eslint-disable-next-line
   const handlePreviousClick = async() =>{
