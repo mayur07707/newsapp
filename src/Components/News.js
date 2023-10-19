@@ -31,7 +31,7 @@ const News = (props) =>  {
   
   useEffect(() => {
     updateNews();
-  }, [updateNews])
+  }, [])
   
   //eslint-disable-next-line
   const handlePreviousClick = async() =>{
