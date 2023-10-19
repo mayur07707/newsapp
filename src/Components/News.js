@@ -28,10 +28,12 @@ const News = (props) =>  {
     props.setProgress(100);
   }
 
+  //eslint-disable-next-line
   useEffect(() => {
     updateNews();
   }, [])
   
+  //eslint-disable-next-line
   const handlePreviousClick = async() =>{
     console.log("previous click")
 
@@ -49,6 +51,7 @@ const News = (props) =>  {
     updateNews();
   }
 
+  //eslint-disable-next-line
   const handleNextClick = async () =>{
       console.log("Next click")
       // we can calculate the no of pages by : totalArticles / pagesize; totalaricles are no of totalresults and pagesize is no of results on one page
